@@ -1,0 +1,145 @@
+/* PC */
+@media (min-width: 1024px) {
+    .mobile-menu {
+        display: none;
+    }
+    #header .subnav{
+        overflow: visible;
+    }
+    .form-control-email{
+        max-width: 152px;
+    }
+}
+/* Tablet & Mobile */
+@media (max-width: 1023px){
+
+    .btn {
+        -webkit-appearance: none;
+        appearance: none;
+        padding: 15px 16px;
+    
+    }
+    .contact-form .form-control{
+        padding: 15px;
+    }
+    .socials-list{
+        font-size: 44px;
+        margin: 0 8px;
+    }
+    .copyright{
+        padding: 12px 0;
+        display: inline-block;
+    }
+    #nav .subnav a{
+        padding: 5px 12px;
+    }
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .mobile-menu {
+        display: none;
+    }
+    #header .subnav{
+        overflow: visible;
+    }
+    .contact-info{
+        line-height: 2;
+    }
+    .form-control-message{
+        padding: 8px 32px 8px 0;
+    }
+}
+/* Mobile */
+@media (max-width: 739px){
+    .place-list{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .place-item{
+        max-width: 100%;
+        margin-top: 16px;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+
+    }
+    #nav .subnav a{
+        padding: 5px 41px;
+        color: #fff ;
+    }
+    #header .search-button{
+        display: none;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #content .member-item{
+        width: 100%;
+        margin-top: 30px;
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    .place-list {
+        margin-top: 16px;
+        width: 100%;
+    }
+    .info-contact{
+        width: 100%;
+    }
+    /* .form-contact{
+        display: block;
+        width: 100%;
+    } */
+    .contact-nameandemail-form{
+        display: inline;
+      
+        width: 100%;
+    }
+    .form-contact{
+        display: flex;
+    
+
+    }
+    .form-name{
+        flex:1;
+    }
+    .form-email{
+
+        flex:1;
+    }
+    .message-form{
+        flex:1;
+    }
+    .form-control-email{
+        width: 96%;
+        margin-left: -2.1%;
+        margin-top: 3%;
+    }
+    .form-control-name{
+        width: 96%;
+        
+        
+    }
+    .form-control-message{
+       max-width: 95%;
+    }
+    /* .form-email{
+     float: left;
+     
+    } */
+}
