@@ -295,7 +295,7 @@ margin-top: -2px ;
 }
 .btn{
     color: #fff;
-    background-color: #ff7979;
+    background-color: #130f40;
     text-decoration: none; 
     padding: 11px 16px;
     display: inline-block;
@@ -473,7 +473,7 @@ margin-top: -2px ;
 .send-summit{
     border: none;
     padding: 10px 16px;
-    background: rgba(255, 121, 121,1.0);
+    background: #130f40;
     color: #fff;
     float: right;
     margin-top: 18px;
