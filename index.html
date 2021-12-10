@@ -1,293 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>The Band</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/rps.css">
-    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
-    <link rel="shortcut icon" href="./assets/img/thebandicon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <link rel="stylesheet" href="/js/main.js">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/fonts/fontawesome-free-5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div id="main">
-        <div id="header">
-            <!--Start---Nav-->
-            <ul id="nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#band">Band</a></li>
-                <li><a href="#tour">Tour</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li>
-                    <a href="#">MORE <i class="ti-angle-down"></i></a>
-                    <ul class="subnav">
-                        <li><a href="#">Merchandise</a></li>
-                        <li><a href="#">Extras</a></li>
-                        <li><a href="#">Media</a></li>
-
-                    </ul>
-                </li>
+     
+        <header>
+          <div class="navbar_header">
+            <ul>
+              <li><a href="#">Trang Chủ</a></li>
+              <li><a href="sanpham.html">Sản Phẩm</a></li>
+              <li><a href="dndk.html">Đăng Nhập & Đăng Ký</a></li>
+              <li><a href="gioithieu.html">Giới Thiệu</a></li>
+              <li><a href="lienlac.html">Liên Lạc</a></li>
             </ul>
-            <!--End---Nav-->
-            <!--Start---Search-->
-            <div class="search-button">
-                <i class="search-icon ti-search"></i>
-                <!--End---Search-->
+            <div class="navbar_forright">
+              <input type="text" placeholder="Nhập để tìm kiếm">
+              <i class="fas fa-search navbar_search"></i>
             </div>
-            <div id="mobile-menu" class="mobile-menu">
-                <i class="icon-menu ti-menu"></i>
-            </div>
-        </div>
-
-        <div id="slider">
-            <div class="text-content">
-                <h2 class="text-heading">Los Angeles</h2>
-                <div class="text-discription">We had the best time playing at Venice Beach!</div>
-            </div>
-        </div>
-
-        <div id="content">
-            <!--The Band-->
-            <div id="band" class="content-section">
-                <h2 class="section-heading">THE BAND</h2>
-                <p class="section-sub-heading">We love music</p>
-                <p class="about-content">We have created a fictional band website. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.</p>
-                <!--Member-->
-                <div class="member-list">
-                    <div class="member-item">
-                        <p class="member-name">Name</p>
-                        <img src="./assets/img/band/member1.jpg" alt="Name" class="member-img">
-                    </div>
-                    <div class="member-item">
-                        <p class="member-name">Name</p>
-                        <img src="./assets/img/band/member1.jpg" alt="Name" class="member-img">
-                    </div>
-                    <div class="member-item">
-                        <p class="member-name">Name</p>
-                        <img src="./assets/img/band/member1.jpg" alt="Name" class="member-img">
-                    </div>
-                    <div id="clear"></div>
-                </div>
-            </div>
-            <!--Tour-->
-            <div id="tour" class="tour-section">
-
-                <div class="content-section">
-                    <h2 class="section-heading text-while">TOUR DATES</h2>
-                    <p class="section-sub-heading text-while">Remember to book your tickets!</p>
-                    <ul class="ticket-list">
-                        <li>September <span class="sold-out">Sold out</span></li>
-                        <li>October <span class="sold-out">Sold out</span></li>
-                        <li>November <span class="quantity">3</span></li>
-                    </ul>
-                    <!-- Place -->
-                    <div class="place-list">
-                        <div class="place-item">
-                            <img src="/assets/img/tickets/tickets1.jpg" alt="New York" class="place-img">
-                        <div class="place-body">
-                            <h3 class="place-heading">New York</h3>
-                            <p class="place-time">Fri 27 Nov 2016</p>
-                            <p class="place-discription">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <button  class="btn js-buy-ticket">Buy Tickets</button>
-                        </div>
-                        </div>
-        
-                        <div class="place-item">
-                            <img src="/assets/img/tickets/tickets2.jpg" alt="Paris" class="place-img">
-                        <div class="place-body">
-                            <h3 class="place-heading">Paris</h3>
-                            <p class="place-time">Sat 28 Nov 2016</p>
-                            <p class="place-discription">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <button  class="btn js-buy-ticket">Buy Tickets</button>
-                        </div>
-                        </div>
-        
-                        <div class="place-item">
-                            <img src="/assets/img/tickets/tickets3.jpg" alt="San Francisco" class="place-img">
-                        <div class="place-body">
-                            <h3 class="place-heading">San Francisco</h3>
-                            <p class="place-time">Sun 29 Nov 2016</p>
-                            <p class="place-discription">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <button  class="btn js-buy-ticket">Buy Tickets</button>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="clear"></div>
-
-            </div>
-                <!-- Begin: Contact-Section -->
-                <div id="contact" class="contact-section">
-
-                    <div class="content-section">
-                        <h2 class="section-heading">CONTACT</h2>
-                        <p class="section-sub-heading">Fan? Drop a note!</p>
-                    <div class="full-contact">
-                        <div class="info-contact">
-                            <div class="info-web-contact">
-                                <p><i class="ti-location-pin"> Chicago, US</i></p>
-                                <p><i class="ti-mobile"><a href="tel:+00 151515"> Phone: +00 151515</a></i></p>
-                                <p><i class="ti-email"><a href="mailto:mail@mail.com"> Email: mail@mail.com</a></i></p>
-                            </div>
-                           
-                        </div>
-                            <div class="form-contact">
-                                <form action="">
-                                    <div class="contact-nameandemail-form">
-                                        <div class="form-name">
-                                            <input type="text" name="" placeholder="Name" required id="" class="form-control-name">
-                                        </div> 
-
-                                        <div class="form-email">
-                                            <input type="email" name="" placeholder="Email" required id="" class="form-control-email">
-                                        </div>
-                                    </div>
-                                    <div class="contact-message-form">
-                                    <div class="message-form">
-                                        <input type="text" name="" placeholder="  Message" id="" required class="form-control-message">
-                                        </div>
-                                    </div>
-                                    <input class="send-summit" type="submit" value="SEND">
-                                </form>
-                                    </div>
-                                    <div id="clear"></div>
-                                </div>
-                                </div>
-                                </div>
-                                <div class="map-section">
-                                    <img src="./assets/img/map.jpg" alt="Map">
-                                </div>
-                                <div id="footer">
-                                    <div class="socials-list">
-                                       <a href=""><i class="ti-facebook"></i></a> 
-                                       <a href=""><i class="ti-instagram"></i></a> 
-                                       <a href=""><i class="ti-youtube"></i></a> 
-                                       <a href=""><i class="ti-pinterest"></i></a> 
-                                       <a href=""><i class="ti-twitter"></i></a> 
-                                       <a href=""><i class="ti-linkedin"></i></a> 
-
-                                    </div>
-                                    <p class="copyright">Design by <a href="www.facebook.com/TaiTitans">TaiTitans</a></p>
-                                </div>
-                            </div>
-                        </div>
-                   
-
-                
-            <!-- End: Contact-Section -->
+          </div>
+          </header>
+      
+     
+       
           
-                   <!-- Ticket Box -->
-                   <div class="modal js-modal">
-                    <div class="modal-container js-modal-container">
-                        <div class="modal-close js-modal-close">
-                            <i class="ti-close"></i>
-                        </div>
-                        <header class="modal-header">
-                            <i class="modal-heading-icon ti-bag"></i>
-                            Tickets
-                        </header>
-                        <div class="modal-body">
-                           <label for="ticket-quantity" class="modal-label">
-                            <i class="ti-shopping-cart"></i>   
-                            Tickets, $15 person
-                           </label>
-                           <input id="ticket-quantity" type="text" class="modal-input" placeholder="How many?">
-                     
-                            <label for="ticket-email" class="modal-label">
-                             <i class="ti-user"></i>   
-                             Send to
-                            </label>
-                            <input id="ticket-email" type="email" class="modal-input" placeholder="Enter email...">
-                            <button id="buy-tickets">
-                                Pay <i class="ti-check"></i> 
-                             </button>
+          
+          
+          <main>
+      <div class="navbar_img">
+
+        <img src="/img/backgroundheader.png" alt="" class="navbar_background">
+        <div class="navbar_2">
+          <ul class="navbar_ul">
+            <li>
+              <img src="/img/titansstore.png" alt="" class="navbar_logo">
+            </li>
+            <li class="navbar_2-li">
+              <span class="navbar_2-text">MÔ HÌNH</span>
+            </li>
+            <li class="navbar_2-li">
+              <span class="navbar_2-text">CÔNG CỤ MUA SẮM</span>
+            </li>
+            <li class="navbar_2-li">
+              <span class="navbar_2-text">TẠI SAO CHỌN CHÚNG TÔI</span>
+            </li>
+          </ul>
+        </div>
+        <img src="/img/carbackground.png" alt="" class="navbar_img-car">
+
+        <div class="navbar_info1">
+          <span class="navbar-info-text1">PANAMERA TURBO S</span>
+          <span class="navbar-info-text2">Kiểm tra Panamera Turbo S E-Hybrid.</span>
+        </div>
+
+        <div class="navbar_info2">
+          <span class="navbar-info2-text1">STAY DRIVEN</span>
+          <span class="navbar-info2-text2">Khám phá cách chúng tôi đang giữ cho trải nghiệm của bạn an toàn như khi trải nghiệm thú vị.</span>
+        </div>
+      </div>
+      <div class="option_1">
+        <div class="option_info-text">
+
+          <span class="option_text-1">HÌNH ẢNH</span>
+          <span class="option_text-2">TƯƠNG LAI CỦA</span>
+          <span class="option_text-3">XE THỂ THAO</span>
+        </div>
+
+        <div class="option-info-textandbutton">
+          <span class="option_text2">Định hình tương lai của xe hơi thể thao - đây là chủ đề của Chiến lược năm 2025. Mục tiêu chính của công ty trong chiến lược này là đạt được sự tăng trưởng tạo ra giá trị.</span>
+          <button class="option_button" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">TÌM HIỂU THÊM</button>
+        </div>
+      </div>
+
+      
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-black text-white">
+        <h5 class="modal-title" id="exampleModalLabel">Thông tin chi tiết</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body bg-white text-black">
+        <h5 class="modal-title" id="exampleModalLabel">Porsche AG, thường được gọi tắt là Porsche, là một công ty chuyên sản xuất xe hơi thể thao hạng sang của Đức kiêm thương hiệu con trực thuộc Volkswagen AG - tập đoàn ô tô hàng đầu thế giới cũng như gia tộc nhà Porsche. </h5>
+      </div>
+      <!-- <div class="modal-footer">
+      </div> -->
+    </div>
+  </div>
+</div>
+
+
+      <div class="option_2">
+        <img src="/img/backgroundcar2.png" alt="" class="option_2-img">
+
+        <div class="option_2-info">
+          <span class="option_2-text-header">
+            XE THỂ THAO TINH HOA
+          </span>
+          <span class="option_2-text-body">
+            Cayenne và Cayenne Coupe: đều có ngoại hình nổi bật và khả năng vận hành ấn tượng, với tối đa 5 chỗ ngồi.
+          </span>
+
+          <button class="option_2-button" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">TÌM HIỂU THÊM</button>
+        </div>
+      </div>
+
+       <!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-black text-white">
+        <h5 class="modal-title" id="exampleModalLabel">Trung tâm Porsche Sài Gòn</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body bg-white text-black">
+        <h5 class="modal-title" id="exampleModalLabel">Lô DVTM-5-6-7, đường số N1 và Lô DVTM-4, Đường số 7
+          Khu Thương mại Nam, Khu Chế Xuất Tân Thuận
+          Phường Tân Thuận Đông, Quận 7, Tp. Hồ Chí Minh</h5>
+      </div>
+      <!-- <div class="modal-footer">
+      </div> -->
+    </div>
+  </div>
+</div>
+
+
+
+      <div class="details">
+        <div class="details_1">
+          <img src="/img/OurHandsPhoto1.png" alt="">
+          <div class="details_info">
+
+            <span class="details_textHead">
+              Các công cụ quan trọng nhất của chúng tôi từ ngày đầu tiên? Chính là bàn tay.
+            </span>
+            <span class="details_textBody">
+              Quá trình sản xuất là một công việc phức tạp. Bên cạnh việc sử dụng các vật liệu có giá trị như da, Alcantara®, carbon, gỗ hoặc nhôm, tài sản quan trọng nhất của chúng ta là bàn tay con người. Chúng thường là những công cụ duy nhất đáp ứng nhu cầu cao của chúng tôi.
+            </span>
+          </div>
+      </div>
+      </div>
+      <div class="details2">
+        <div class="details_2">
+          <img src="/img/EveryDetail.png" alt="">
+          <div class="details_info2">
+            
+            <span class="details_textHead2">
+              Tính cách trong từng chi tiết.
+            </span>
+            <span class="details_textBody2">
+              Mong muốn của khách hàng của chúng tôi là độc quyền và cao hơn mong muốn của đại chúng. Làm thế nào để chúng ta gặp họ? Với kinh nghiệm và niềm đam mê từ mỗi nhân viên. Bạn có thể cảm nhận được điều đó trong từng chi tiết cuối cùng.
+            </span>
+          </div>
+        </div>
+      </div>
+
+        <div class="example">
+          <div class="example_info">
+            <span class="example_text">
+              Các cột mốc quan trọng của Porsche
+            </span>
+
+          </div>
+          <div class="example_option">
+            <img src="/img/Rectangle48.png" alt="">
+            <div class="example_option-text">
+              <span class="example_option-textHead">KIỂU 360</span>
+              <span class="example_option-textBody">Dưới sự chỉ đạo của Ferry, con trai của Ferdinand Porsche, việc thiết kế một chiếc xe đua Grand Prix toàn bánh - 'Cisitalia' (Kiểu 360) - được bắt đầu cho nhà công nghiệp người Ý Piero Dusio.</span>
+
+            </div>
+
+            
+          </div>
+
+          <div class="example_option2">
+            <span class="example_option2-text">
+              1946
+            </span>
+            <div class="example_option2-s"></div>
+          </div>
+          </div>
+          <div class="sample">
+            <div class="sample_info">
+              <span class="sample_textHead">
+                TÌM KIẾM
+              </span>
+              <span class="sample_textBody">
+                CHIÊC XE HOÀN HẢO CHO BẠN
+              </span>
+              <span class="sample_textFooter">
+                Chọn một danh mục để bắt đầu khám phá các loại xe.
+              </span>
+
+              <img src="/img/carbackground.png" alt="">
+            </div>
+          </div>
+
+
+    </main>
+
+
+    <footer>
+      <div class="footer">
+        <span class="footer_option">
+          © 2021 Bản quyền thuộc về <span class="footer_option2">❤️ NHÓM 8</span>
+          <div class="footer_icon">
+            <a href=""><i class="fab fa-facebook-f icon__footer"></i></a> <a
+                        href=""><i class="fab fa-twitter icon__footer"></i></a> <a href=""><i
+                            class="fab fa-pinterest-p icon__footer"></i></a>
     
-                             <footer class="modal-footer">
-                                <p class="modal-help">Need <a href="">help?</a></p>
-                                </footer>
-                        </div>
-                    </div>
-                </div>
-                <!-- Đóng mở menu-->
-                <script>
-                    const buyBtns = document.querySelectorAll('.js-buy-ticket')
-                    const modal = document.querySelector('.js-modal')
-                    const modalContainer = document.querySelector('.js-modal-container')
-                    const modalClose = document.querySelector('.js-modal-close')
-                    //Hàm hiển thị modal mua vé (thêm classs open vào modal) 
-                    function showBuyTickets() {
-                        modal.classList.add('open')
-                    }
-                    //Hàm ẩn modal mua vé ( gỡ bỏ class open của modal)
-                    function hideBuyTickets() {
-                        modal.classList.remove('open')
-                    }
-                    // Lập qua từng thẻ button và nghe hành vi click
-                    for (const buyBtn of buyBtns){
-                        buyBtn.addEventListener('click', showBuyTickets)
-                    }
-                    // Nghe hành vi click vào button close
-                    modalClose.addEventListener('click', hideBuyTickets)
+          </div>
+        </span>
+        
+      </div>
+      <a href="#" class="go-top"><img src="/img/gotop.png" alt="#"></a>
+      
+    </footer>
 
-                    modal.addEventListener('click', hideBuyTickets)
-                    modalContainer.addEventListener('click', function(event){
 
-                    event.stopPropagation()
-                })
-                </script>
-                <!-- Menu Mobile -->
-                <script>
-                    var header = document.getElementById('header');
-                    var mobileMenu = document.getElementById('mobile-menu');
-                    var headerHeight = header.clientHeight;
-            
-                    // Đóng/ Mở mobile menu
-                    mobileMenu.onclick = function() {
-                        var isClosed =header.clientHeight === headerHeight;
-                        if (isClosed) {
-                            header.style.height ='auto';   
-                        } else {
-                            header.style.height = null;
-                        }
-                    }
-                    // Khai báo biến header/ mobile/ headerHeight
-                    // Đóng/ Mở mobile menu
-                    // Khi click vào mobileMenu thì sẽ chạy hàm như sau: 
-                        // Khai báo biến isclosed = header.clientHeight bằng với headerHeight (biến True False);
-                        // Nếu biến isClosed đúng thì header.style.height ='auto' --> sổ ra 
-                        // Nếu biến isClosed sai thì header.style.height = null --> đóng vào 
-            
-                    // Tự động đóng khi chọn menu\
-                    var menuItems =document.querySelectorAll('#nav li a[href*="#"]');
-                    for (i=0; i<menuItems.length;i++) {
-                        var menuItem = menuItems[i];
-                        menuItem.onclick =function(event) {
-                            var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
-                            if(isParentMenu){
-                                event.preventDefault();
-                            } else {
-                                header.style.height =null;
-                            }
-                        }
-                    }
-            
-                    //Khai báo biến menuItems là các thẻ nav li a có chứa dấu #
-                    // Chạy vòng lặp for (khai báo biến i=0; nếu i nhỏ hơn số lượng MenuItems; tăng i lên 1) Nếu i thỏa mãn chạy: 
-                        // Khai báo biến tạm menuItem = truyền giá trị của menuItems vị trí i vào;
-                        // Khi click vào menuItem chạy hàm 
-                           //header.style.height =null; --> giấu thanh đi 
-            
-            
-                </script>
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
