@@ -129,8 +129,8 @@ h3 {
 }
 
 .gopy {
- 
-  padding-left: 600px;
+  justify-content: center;
+  padding-left: 500px;
 }
 
 .gopy-btn {
@@ -148,6 +148,7 @@ h3 {
   margin-top: 12px;
   border-radius: 4px;
   width: 70px;
+  margin-left: 180px;
 }
 
 .input_info{
